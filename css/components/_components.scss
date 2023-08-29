@@ -1,0 +1,14 @@
+.container{
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    @include small{
+        width: 750px;
+    }
+    @include medium{
+        width: 970px;
+    }
+    @include large{
+        width: 1200px;
+    }
+}

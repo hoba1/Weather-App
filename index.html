@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalise.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div id="particles-js">
+        <div class="container">
+            <div class="box">
+                <div class="input-data">
+                    <input type="text" placeholder="Enter City Name">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class="error">
+                    <p>Invalid City Name</p>
+                </div>
+                <div class="show-data">
+                    <div class="img-of-weather">
+                        <img src="imgs/clear.png" alt="">
+                    </div>
+                    <p class="temp">20</p>
+                    <p class="city-name">egypt</p>
+                    <div class="other-info">
+                        <div class="humidity">
+                            <img src="./imgs/humidity.png" alt="">
+                            <div class="info">
+                                <p class="humidity-num">50</p>
+                                <p class="title">humidity</p>
+                            </div>
+                        </div>
+                        <div class="wind-speed">
+                            <img src="./imgs/wind.png" alt="">
+                            <div class="info">
+                                <p class="speed">15</p>
+                                <p class="title">wind-speed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
